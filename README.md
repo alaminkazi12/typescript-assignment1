@@ -34,14 +34,14 @@ The `keyof` operator lets you extract all keys of an object type, enabling safer
 const person = { name: "Alex", age: 30 };
 type PersonKeys = keyof typeof person;
 // Result: "name" | "age"
+```
 
 ##When to use?
 
-| Keyword    | Best Use Case                                |
-|------------|-----------------------------------------------|
-| `interface` | For objects and class definitions             |
-| `type`      | For unions, tuples, and flexible definitions  |
-| `keyof`     | When working with object keys dynamically     |
+| Keyword     | Best Use Case                                |
+| ----------- | -------------------------------------------- |
+| `interface` | For objects and class definitions            |
+| `type`      | For unions, tuples, and flexible definitions |
+| `keyof`     | When working with object keys dynamically    |
 
 Hopefully you have enjoyed the short blog. To get more like this simple blog, you can subscribe the newsletter.
-```
